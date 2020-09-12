@@ -92,9 +92,12 @@
 	- Use the nano text editor to add a custom message to the home page of the web server:
 	
 	```
-	sudo sed -i '2s/^/<p>Hi from OGHENEKENO</p>\n/' /var/www/html/index.nginx-debian.html
+	sudo sed -i '1s/^/<p>Hi from OGHENEKENO</p>\n/' /var/www/html/index.nginx-debian.html
 	
 	```
+	# This command can be used alternatively:
+	# sudo sed 's/<h1>.*<\/h1>/\nHi from OGHENEKENO/' /var/www/html/index.nginx-debian.html
+	
 	
 	7. Step 7
 	- Confirm that the web server is serving your new page. At the command prompt on my-vm-1, execute this command:
