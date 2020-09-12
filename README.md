@@ -1,5 +1,4 @@
 # Google-Cloud-Practice-Project-2020_OghenekenoOkula
-# Google Africa Developer Scholarship Phase II   
 # Google Cloud Practice Project
 
 Description
